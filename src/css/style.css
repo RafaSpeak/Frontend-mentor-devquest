@@ -1,0 +1,126 @@
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%)
+}
+
+body {
+font-family: "Poppins";
+background-image: url(/projeto-huddle-base/src/images/bg-desktop.svg);
+background-size: 93%;
+background-repeat: no-repeat;
+background-color: var(--Violet);
+}
+
+
+/* Seçao do Cabeçalho */
+
+
+.header {
+  margin: 20px;
+} 
+
+.header-logo {
+  margin: 5px;
+  padding: 20px;
+  width: 250px;
+  transform: scale(0.9);
+} 
+
+
+/* Seção de Principal */
+
+main {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  transform: scale(0.9);
+}
+
+.section-banner {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  color: #ffffff;
+}
+
+.descricao {
+  padding: 40px;
+}
+
+.titulo {
+  display: flex;
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.texto {
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+button.botao {
+  background-color: #ffffff;
+  color: var(--Violet);
+  font-size: 15px;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease, transform 0.3s ease; 
+}
+
+button.botao:hover {
+  background-color: var(--Soft-Magenta);
+  transform: scale(1.03);
+  color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Rodapé */
+
+.footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0px 10px;
+  transform: scale(0.9);
+} 
+
+.footer-social {
+  display: flex; 
+  gap: 10px;
+} 
+
+.footer-social i {
+  color: #ffffff;
+  padding: 10px;
+  border: 1.5px solid #ffffff;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.footer-social-icon {
+  display: flex;
+  
+} 
+
+.footer-social-icon i:hover{
+  border-color: var(--Soft-Magenta);
+  color: var(--Soft-Magenta);
+} 
+
+
+
+
+
+
+
+
+
+
+
