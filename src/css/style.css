@@ -5,8 +5,8 @@
 
 body {
 font-family: "Poppins";
-background-image: url(/projeto-huddle-base/src/images/bg-desktop.svg);
-background-size: 93%;
+background: url("../images/bg-desktop.svg");
+background-size: 95%;
 background-repeat: no-repeat;
 background-color: var(--Violet);
 }
@@ -15,15 +15,13 @@ background-color: var(--Violet);
 /* Seçao do Cabeçalho */
 
 .header {
-  position: relative;
   margin: 20px;
 } 
 
 .header-logo {
-  position: relative;
   margin: 5px;
   padding: 20px;
-  width: 250px;
+  width: 270px;
   transform: scale(0.9);
 } 
 
@@ -32,8 +30,7 @@ background-color: var(--Violet);
 
 main {
 max-width: 1200px;
-margin: 0 auto;
-padding: 0 16px;
+margin: 25px 15px;
 
 /* background-color: red;
 border-radius: 8px;
@@ -47,23 +44,26 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9); */
   justify-content: flex-start;
   gap: 40px;
   color: #ffffff;
+  transform: scale(0.9);
 }
 
 .descricao {
-  padding: 40px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .titulo {
   font-weight: 600;
-  font-size: 40px;
-  padding-bottom: 20px;
+  font-size: 35px;
+  margin-top: 35px;
+  margin-bottom: 2rem;
 }
 
 .texto {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   color: #ffffff;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 button {
@@ -90,13 +90,10 @@ button:hover {
 .footer {
   display: flex;
   justify-content: end;
-  align-items: center;
   position: relative;
-  left: 30px;
-  top: 10px;
-  font-size: 20px;
+  bottom: 30px;
+  font-size: 15px;
   transform: scale(0.9);
-  margin-bottom: 10px;
 } 
 
 .footer-social i {
