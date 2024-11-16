@@ -1,65 +1,53 @@
-@media (max-width: 1200px) and (max-height: 1600px) {
-  
-    body {
-      width: auto;
-      background-image: url(../images/bg-mobile.svg);
-      background-size: 100%; 
-      background-repeat: no-repeat;
-      background-position: center top;
-    }
-  
-    .header {
-      margin: 20px;
-    }
-  
-    .header-logo {
-      width: 500px; 
-      padding: 20px;
-      transform: scale(0.8);
-    }
-  
-    main {
-      display: flex;
-      flex-direction: column; 
-      align-items: center;
-      padding: 20px;
-      transform: scale(0.95);
-    }
-  
-    .section-banner {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 15px;
-      padding: 20px;
-    }
-  
-    .descricao {
-      padding: 80px;
-      transform: scale(0.9);
-    }
-  
-    .titulo {
-      font-size: 50px; 
-      padding-bottom: 15px;
-    }
-  
-    .texto {
-      font-size: 14px;
-      margin-bottom: 2rem;
-    }
-  
-    button.botao {
-      padding: 15px 30px;
-      font-size: 14px;
-      width: 200px; 
-    }
-  
-    .footer {
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-    }
-    
+@media screen and (max-width: 1000px){
+
+  body {
+    background: url("../images/bg-mobile.svg") top no-repeat var(--Violet);
+    background-size: cover;
   }
+
+  .section-banner, footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  button {
+    padding: 10px 80px;
+  }
+
+  .footer-social {
+    position: relative;
+    right: 30px;
+    height: 100px;
+  }
+
   
+}
+
+@media screen and (max-width:780px){
+
+  .banner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .titulo {
+    font-size: 30px;
+  }
+
+}
+
+
+@media screen and (max-width:480px){
+
+  .header-logo {
+    width: 50%;
+  }
+
+  .texto{
+    font-size: 13px;
+  }
+
+  .botao{
+    font-size: 10px;
+  }
+}

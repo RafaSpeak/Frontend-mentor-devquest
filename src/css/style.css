@@ -5,8 +5,10 @@
 
 body {
 font-family: "Poppins";
-background-image: url(/projeto-huddle-base/src/images/bg-desktop.svg);
-background-size: 93%;
+width: 100%;
+height: 100vh;
+background: url("../images/bg-desktop.svg");
+background-size: 100%;
 background-repeat: no-repeat;
 background-color: var(--Violet);
 }
@@ -14,12 +16,13 @@ background-color: var(--Violet);
 
 /* Seçao do Cabeçalho */
 
-
 .header {
+  position: relative;
   margin: 20px;
 } 
 
 .header-logo {
+  position: relative;
   margin: 5px;
   padding: 20px;
   width: 250px;
@@ -30,16 +33,21 @@ background-color: var(--Violet);
 /* Seção de Principal */
 
 main {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  transform: scale(0.9);
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 16px;
+
+/* background-color: red;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9); */
 }
 
 .section-banner {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 40px;
   color: #ffffff;
 }
 
@@ -48,7 +56,6 @@ main {
 }
 
 .titulo {
-  display: flex;
   font-weight: 600;
   font-size: 40px;
   padding-bottom: 20px;
@@ -61,10 +68,11 @@ main {
   margin-bottom: 2rem;
 }
 
-button.botao {
+button {
   background-color: #ffffff;
   color: var(--Violet);
-  font-size: 15px;
+  font-size: 18px;
+  margin-top: 20px;
   padding: 12px 50px;
   border: none;
   border-radius: 40px;
@@ -72,7 +80,7 @@ button.botao {
   transition: box-shadow 0.3s ease, background-color 0.3s ease, transform 0.3s ease; 
 }
 
-button.botao:hover {
+button:hover {
   background-color: var(--Soft-Magenta);
   transform: scale(1.03);
   color: #ffffff;
@@ -85,13 +93,12 @@ button.botao:hover {
   display: flex;
   justify-content: end;
   align-items: center;
-  padding: 0px 10px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+  font-size: 20px;
   transform: scale(0.9);
-} 
-
-.footer-social {
-  display: flex; 
-  gap: 10px;
+  margin-bottom: 10px;
 } 
 
 .footer-social i {
@@ -103,18 +110,10 @@ button.botao:hover {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-
-.footer-social-icon {
-  display: flex;
-  
-} 
-
 .footer-social-icon i:hover{
   border-color: var(--Soft-Magenta);
   color: var(--Soft-Magenta);
 } 
-
-
 
 
 
