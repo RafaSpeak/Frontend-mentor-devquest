@@ -1,6 +1,9 @@
 # Projeto Huddle - Landing Page
 
+HEAD
 ![Huddle Logo](../projeto-huddle-base/src/images/logo.svg)
+
+
 Este projeto é uma página de aterrissagem (landing page) para o **Huddle**, uma plataforma que permite criar e gerenciar comunidades. Foi criado como parte de um desafio do [Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub).
 
 ## 📄 Descrição
