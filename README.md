@@ -1,6 +1,6 @@
 # Projeto Huddle - Landing Page
 
-![Huddle Logo](../frontend-mentor-devquest/src/images/logo.svg)  
+![Huddle Logo](../projeto-huddle-base/src/images/logo.svg)
 Este projeto é uma página de aterrissagem (landing page) para o **Huddle**, uma plataforma que permite criar e gerenciar comunidades. Foi criado como parte de um desafio do [Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub).
 
 ## 📄 Descrição
@@ -9,12 +9,12 @@ A página apresenta um design limpo e moderno, com uma **seção de introdução
 
 - **Imagem de Mockup:**  
   A imagem de mockup ilustra a interface da plataforma Huddle.  
-  ![Imagem de Mockup](../frontend-mentor-devquest/src/design/active-states.jpg)
+  ![Imagem de Mockup](../projeto-huddle-base/src/images/illustration-mockups.svg)
   
 - **Responsivo**  
 
 
-  ![Logo Huddle](../frontend-mentor-devquest/src/design/mobile-design.jpg)
+
 
 ## ⚙️ Funcionalidades
 
